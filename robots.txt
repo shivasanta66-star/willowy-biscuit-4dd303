@@ -1,0 +1,11 @@
+# TEMPORARY — blocks all search engines while the site is being evaluated.
+#
+# The live pages currently carry sample prices and placeholder testimonials,
+# so this deploy must not be indexed.
+#
+# BEFORE REAL LAUNCH, delete this file AND remove the
+# <meta name="robots" content="noindex, nofollow"> tag from index.html.
+# Leaving either in place keeps the showroom invisible on Google.
+
+User-agent: *
+Disallow: /
