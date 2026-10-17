@@ -288,27 +288,6 @@ address { font-style: normal; }
   transition: transform 0.15s ease, box-shadow 0.2s ease;
 }
 .bike-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
-.stock-notice {
-  max-width: 900px;
-  margin: 28px auto 16px;
-  padding: 18px 24px;
-  background: var(--white);
-  border: 1px solid var(--stone);
-  border-radius: var(--radius-md);
-}
-.stock-notice[hidden] { display: none; }
-.stock-badge {
-  display: inline-block;
-  margin-bottom: 8px;
-  padding: 4px 14px;
-  border-radius: 999px;
-  background: var(--red);
-  color: var(--white);
-  font: 700 0.78rem var(--font-head);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.stock-notice p { margin: 0; color: var(--charcoal-soft); }
 .bike-media { position: relative; background: linear-gradient(180deg, #FBF8F1, var(--cream)); padding: 16px; }
 .badge {
   position: absolute;

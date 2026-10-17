@@ -46,7 +46,7 @@ const SHOWROOM = {
 
   /* ---------- Bike category tabs ---------- */
   const tabs = document.querySelectorAll('.tab');
-  const bikeCards = document.querySelectorAll('.bike-card, .stock-notice');
+  const bikeCards = document.querySelectorAll('.bike-card');
 
   tabs.forEach(function (tab) {
     tab.addEventListener('click', function () {
