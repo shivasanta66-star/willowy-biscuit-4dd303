@@ -451,6 +451,12 @@ address { font-style: normal; }
 }
 .strip-photo { width: 100%; height: auto; display: block; }
 
+/* ---------- About the showroom ---------- */
+.about-showroom { display: grid; gap: 28px; align-items: center; }
+.about-text h2 { margin-bottom: 16px; }
+.staff-photo { margin: 0; min-height: 260px; aspect-ratio: 4 / 3; }
+.staff-photo .strip-photo { height: 100%; object-fit: cover; }
+
 /* ---------- Location ---------- */
 .location-grid { display: grid; grid-template-columns: 1fr; gap: 32px; align-items: center; }
 .location-info address p { margin-bottom: 12px; }
@@ -680,6 +686,10 @@ elevenlabs-convai {
   .testimonial-grid { grid-template-columns: repeat(3, 1fr); }
   .photo-strip { grid-template-columns: repeat(4, 1fr); }
   .footer-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 800px) {
+  .about-showroom { grid-template-columns: 1.2fr 1fr; gap: 48px; }
 }
 
 @media (min-width: 960px) {
